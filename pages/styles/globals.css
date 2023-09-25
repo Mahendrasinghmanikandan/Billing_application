@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  scrollbar-color: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* antd password icon */
+.anticon.ant-input-password-icon {
+  color: #ff5f1f !important;
+}
+
+/* antd menu */
+
+.ant-menu-item-selected {
+  background-color: transparent !important;
+  color: #ff5f1f !important;
+}
+
+.ant-menu-item {
+  font-weight: bold !important;
+  border-radius: none !important;
+  height: 7vh !important;
+  border-radius: 0% !important;
+}
+
+/* antd drawer */
+.ant-drawer-close {
+  display: none !important;
+}
+
+/* antd table */
+.ant-table-thead th {
+  font-weight: bold !important;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background-color: #ffff !important;
+}
+
+/* antd pagination */
+.ant-pagination .ant-pagination-item-active {
+  border-color: #ff5f1f !important;
+  color: #ff5f1f !important;
+}
+
+.ant-pagination .ant-pagination-item-active a {
+  color: #ff5f1f !important;
+}
+
+.ant-pagination.ant-pagination-mini .ant-pagination-prev,
+.ant-pagination.ant-pagination-mini .ant-pagination-next {
+  line-height: 0 !important;
+}
+.ant-pagination-item-link {
+  display: none !important;
+}
+
+/* row selection */
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-checkbox-inner:hover {
+  background-color: #ff5f1f !important;
+  border-color: #ff5f1f !important;
+}
+
+/* antd modal */
+.ant-modal-close-icon {
+  display: none !important;
+}
+
+.ant-breadcrumb-separator {
+  color: #ff5f1f !important;
+}
+
+/* antd input disabled */
+.ant-input[disabled] {
+  /* color: white !important;
+  background-color: #fabaa1 !important; */
+}
+
+/* switch */
+.ant-switch.ant-switch-checked {
+  background-color: #ff5f1f !important;
+}
+
+/* antd select */
+
+.ant-select-single {
+  /* border: none !important; */
+}
+
+/* date rage picker overide*/
+.ant-picker-active-bar {
+  background: #ff5f1f !important;
+}
+
+/* antd select */
+.specific
+  :where(.css-dev-only-do-not-override-zjzpde).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  /* border: none !important; */
+  font-weight: bold !important;
+}
+:where(.css-dev-only-do-not-override-zjzpde).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover
+  .ant-select-selector {
+  /* border: none !important; */
+}
